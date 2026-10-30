@@ -1,7 +1,11 @@
 .DS_Store
-*.pcap
-*.pcapng
-*.key
+._*
+*.log
 .env
 .env.*
-*.log
+!.env.example
+*.pem
+*.key
+*.pcap
+*.pcapng
+*.cap
